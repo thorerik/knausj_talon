@@ -3,6 +3,9 @@ from talon import Context, Module, actions, app
 default_alphabet = "air bat cap drum each fine gust harp sit jury crunch look made near odd pit quench red sun trap urge vest whale plex yank zip".split(
     " "
 )
+default_alphabet = "alpha bravo charlie delta echo foxtrot golf hotel india juliet kilo lima mike november oscar papa quebec romeo sierra tango uniform victor whiskey xray yankee zulu".split(
+    " "
+)
 letters_string = "abcdefghijklmnopqrstuvwxyz"
 
 default_digits = "zero one two three four five six seven eight nine".split(" ")
@@ -150,6 +153,7 @@ punctuation_words = {
     # Currencies
     "dollar sign": "$",
     "pound sign": "£",
+    "euro sign": "€",
 }
 symbol_key_words = {
     "dot": ".",
@@ -198,6 +202,7 @@ symbol_key_words = {
     # Currencies
     "dollar": "$",
     "pound": "£",
+    "euro": "€",
 }
 
 # make punctuation words also included in {user.symbol_keys}
